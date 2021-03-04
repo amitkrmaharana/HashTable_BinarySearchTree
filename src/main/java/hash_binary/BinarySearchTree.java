@@ -32,7 +32,4 @@ public class BinarySearchTree<K extends Comparable<K>> {
     public int getSize(){
         return this.getSizeRecursively(root);
     }
-
-
-
 }
